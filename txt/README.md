@@ -1,17 +1,8 @@
 # Apuntes SYTW
 
-> Book introduction here.
+Este libro está dedicado a llevar un constante seguimiento de la asignatura de _Sistemas y Tecnologías Web_.
 
-## Live Demo
-
-[Check demo!](http://my-user.github.io/my-repo)
-
-## Background
-
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
-
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-
+* [Herramientas](Herramientas.md)
+   * [Gitbook](gitbook.md)
+   * [Gulp](gulp.md)
+  
