@@ -2,7 +2,6 @@
 
 Este libro está dedicado a llevar un constante seguimiento de la asignatura de _Sistemas y Tecnologías Web_.
 
-* [Herramientas](Herramientas.md)
-   * [Gitbook](gitbook.md)
-   * [Gulp](gulp.md)
-  
+El contenido se ha dividido en diversas secciones, orientadas hacia la práctica y hacia la teoría de la
+
+asignatura.
