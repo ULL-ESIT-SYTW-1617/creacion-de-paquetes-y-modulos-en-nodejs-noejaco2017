@@ -1,6 +1,6 @@
 {
     "root": "txt",
-    "plugins": ["-toc","-youtube"],
+    "plugins": ["toc", "-video"],
     "pluginsConfig": {
         "toc": {
             "addClass": true,

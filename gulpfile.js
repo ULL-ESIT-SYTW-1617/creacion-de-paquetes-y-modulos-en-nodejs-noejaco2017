@@ -34,8 +34,20 @@ gulp.task('pdf',
     { verbose: true })
 );
 
+gulp.task('mobi', 
+  shell.task(
+    "gitbook mobi",
+    { verbose: true })
+);
+
+gulp.task('epub', 
+  shell.task(
+    "gitbook epub",
+    { verbose: true })
+);
+
 // npm install -g http-server
 //  "generate-gitbook": "./scripts/generate-gitbook",
 gulp.task('build', function() {
   return gulp.src('').pipe(shell(['./scripts/generate-gitbook']));
-});
+}); 

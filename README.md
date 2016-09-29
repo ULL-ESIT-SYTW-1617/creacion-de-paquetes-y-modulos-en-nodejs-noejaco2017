@@ -16,15 +16,15 @@
 
 
 # Installation
-
-
+Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
+1. Para el instalar los paquetes del pacakge.json utilizamos el comando npm install
+2. Para el de book.json utilizamos el comando gitbook install
+3. Una vez hecho y realizado cambios en nuestra repo txt y para cualquier cambio haremos
+4. gulp empujar donde pusheamos a master nuestra carpeta txt
+5. gulp deploy para publicar en gh-pages
+Opcional: gulp pdf donde generamos nuestro gitbook a pdf.
 
 __Important__: Wiki must be created on Github
-
-___Generación de PDFs a partir de GitBook___:
-~~~
-gitbook pdf ./txt
-~~~
 
 ___Utilización del plugin de toc3 para generar tablas de contenidos___:
 [TOC3](https://plugins.gitbook.com/plugin/toc3)
