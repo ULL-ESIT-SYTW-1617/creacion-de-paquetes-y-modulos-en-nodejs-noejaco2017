@@ -25,3 +25,9 @@ npm run deploy
 # npm run deploy-gitbook && npm run deploy-wiki
 ```
 __Important__: Wiki must be created on Github
+
+___Generación de PDFs a partir de GitBook___:
+~~~
+gitbook pdf ./txt
+~~~
+

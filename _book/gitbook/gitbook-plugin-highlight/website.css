@@ -113,7 +113,7 @@
 .book .book-body .page-wrapper .page-inner section.normal pre .hljs,
 .book .book-body .page-wrapper .page-inner section.normal code .hljs {
   display: block;
-  background: white;
+  background: #4271ae;/*cambiar por white*/
   color: #4d4d4c;
   padding: 0.5em;
 }
