@@ -19,4 +19,4 @@ En este ejemplo, __txt__ es el directorio en el que tenemos nuestros archivos Ma
 
 Una opción muy interesante es servir nuestro libro bajo gh-pages de forma que contenemos nuestro libro exportado en un sitio web fácilmente accesible.
 
-A continuación se muestra un __video explicativo__ con la intención de aclarar en mayor medida su uso:
+<!-- toc -->

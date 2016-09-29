@@ -15,7 +15,7 @@ var deploygh = function() {
 }
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build', 'push'], deploygh);
+gulp.task('deploy', deploygh);
 
 gulp.task('empujar', ['build'], 
  shell.task(
@@ -30,6 +30,8 @@ gulp.task('empujar', ['build'],
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('push',
   shell.task(
+    "git add ."+
+    ";"+
     "git commit -am 'deploy to github'"+
     ";"+
     "git push origin master",
