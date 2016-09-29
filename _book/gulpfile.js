@@ -19,8 +19,6 @@ gulp.task('deploy', deploygh);
 
 gulp.task('empujar', ['build'], 
  shell.task(
-    "git add ."+
-    ";"+
     "git commit -am 'deploy to github'"+
     ";"+
     "git push origin master",
@@ -29,17 +27,17 @@ gulp.task('empujar', ['build'],
 );
 
 
-// //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
-// gulp.task('push',
-//   shell.task(
-//     "git add ."+
-//     ";"+
-//     "git commit -am 'deploy to github'"+
-//     ";"+
-//     "git push origin master",
-//     { verbose: true }
-//   )
-// );
+//  "deploy-togbsio": "./scripts/losh deploy-togbsio",
+gulp.task('push',
+  shell.task(
+    "git add ."+
+    ";"+
+    "git commit -am 'deploy to github'"+
+    ";"+
+    "git push origin master",
+    { verbose: true }
+  )
+);
 
 // npm install -g http-server
 //  "generate-gitbook": "./scripts/generate-gitbook",
