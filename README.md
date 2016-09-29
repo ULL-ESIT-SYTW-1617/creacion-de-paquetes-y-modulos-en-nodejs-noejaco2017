@@ -9,8 +9,11 @@
 * Use algun GitBook Plugin en sus apuntes
 
 ### Autores
+
 * Jacobo Rodicio Gonzalez.
 * Noé Campos Delgado.
+
+
 
 # Installation
 
