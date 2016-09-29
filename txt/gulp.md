@@ -59,3 +59,4 @@ gulp.task('js',['css'],function(){
 ~~~
 De esta manera, la tarea js se ejecutará sólo cuando la tarea css __haya terminado__.
 Existen multitud de plugins para Gulp, ejemplo de los más comúnmente utilizados son __Gulp-uglify__ para minificar y __Gulp-concat__ para concatenar.
+<!-- toc -->
