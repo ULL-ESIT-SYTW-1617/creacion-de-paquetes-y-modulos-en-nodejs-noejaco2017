@@ -1,5 +1,5 @@
 /**
- * @author github.com/christianalfoni
+ * @author https://github.com/SistYTWnoeJacobo/TareasInicialesSYTW
  * @source https://raw.githubusercontent.com/christianalfoni/react-webpack-cookbook/master/scripts/generate-wiki.js
  */
 'use strict';
