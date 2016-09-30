@@ -10,11 +10,11 @@
 
 ### Autores
 
-* Jacobo Rodicio Gonzalez.
-* Noé Campos Delgado.
+* [Jacobo Rodicio Gonzalez](http://alu0100836059.github.io/pagina_personal/)
+* [Noé Campos Delgado](dsi1516.github.io/Practica1)
 
 ## Enlace a github gh-pages
-https://sistytwnoejacobo.github.io/TareasInicialesSYTW/
+[gh-pages](https://sistytwnoejacobo.github.io/TareasInicialesSYTW/)
 
 # Installation
 Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
@@ -25,7 +25,8 @@ Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
 5. gulp deploy para publicar en gh-pages
 Opcional: gulp pdf donde generamos nuestro gitbook a pdf.
 
-__Important__: Wiki must be created on Github
+## Enlace a gitbook
+[gitbook](https://alu0100836059.gitbooks.io/apuntessytw/content/)
 
 ___Utilización del plugin de toc3 para generar tablas de contenidos___:
 [TOC3](https://plugins.gitbook.com/plugin/toc3)
