@@ -20,6 +20,19 @@
 ## Enlace a gitbook
 [gitbook](https://alu0100836059.gitbooks.io/apuntessytw/content/)
 
+### Comandos para crear nuestro modulo en NPM
+npm adduser (añade nuestro paquete)
+npm publish(publica nuestro paquete)
+Tener en cuenta que cada vez que se publique cambiar version package.json
+
+### Carpeta bin y lib
+* En nuestra carpeta /bin contiene los archivos para las funciones que podremos ejecutar desde la linea de comandos del cliente npm
+* En nuestra carpeta /lib carpeta que da vida a nuestro modulo (parseo-minimist)
+*  index.js que sirve de atajo al script principal de nuestra aplicación
+
+### Ejecutar nuestro script parse
+node lib/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
+
 # Installation
 Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
 1. Para el instalar los paquetes del pacakge.json utilizamos el comando npm install
