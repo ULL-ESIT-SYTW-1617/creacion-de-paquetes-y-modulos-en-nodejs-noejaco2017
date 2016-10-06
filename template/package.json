@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-start-team-noejaco2017",
+  "name": " nombre ",
   "version": "1.0.1",
-  "description": "Creacion de un paquete npm",
+"description": "Creacion de un paquete npm",
   "main": "./bin/linea-comando-npm.js",
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017.git",
+    "url": "direcciongit",
     "wiki": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017.wiki.git"
   },
   "keywords": [
@@ -43,17 +43,13 @@
   "homepage": "creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017/README.md",
   "devDependencies": {
     "async": "^1.4.0",
-    "express": "^4.14.0",
-    "fs": "0.0.1-security",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
     "gitbook": "^2.1.0",
     "gitbook-cli": "^0.3.4",
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",
-    "minimist": "^1.2.0",
-    "path": "^0.12.7"
+    "minimist": "^1.2.0"
   },
   "dependencies": {
     "ejs": "^2.5.2",
