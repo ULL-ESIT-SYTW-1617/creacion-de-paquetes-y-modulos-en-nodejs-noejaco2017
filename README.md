@@ -1,5 +1,5 @@
 #
-# Práctica: Tareas Iniciales. JavaScript. NodeJS. Gulpfile. Gitbook
+# Práctica: Generar modulo NPM
 
 ### Requisitos
 

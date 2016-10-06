@@ -1,5 +1,9 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
+var ghPages = require('gulp-gh-pages');
+
+    
+
 
 var deploygh = function() {
   "use strict";
@@ -13,6 +17,12 @@ var deploygh = function() {
 
   gh.publish('./gh-pages', { repo: REPO, logger: function(m) { console.error(m); } });
 };
+
+gulp.task('deploy-gh-pages', function() {
+      return gulp.src('./template/*')
+        .pipe(ghPages());
+    });
+
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
 gulp.task('deploy', deploygh);
