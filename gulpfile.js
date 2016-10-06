@@ -18,10 +18,12 @@ var deploygh = function() {
   gh.publish('./gh-pages', { repo: REPO, logger: function(m) { console.error(m); } });
 };
 
+
+//empujar a gh-pages el directorio template
 gulp.task('deploy-gh-pages', function() {
-      return gulp.src('./template/*')
+      return gulp.src('./template/_book/*')
         .pipe(ghPages());
-    });
+});
 
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
