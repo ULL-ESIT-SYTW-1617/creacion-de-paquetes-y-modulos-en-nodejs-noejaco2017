@@ -23,6 +23,9 @@
 ## Enlace a npm
 [npm](https://www.npmjs.com/package/gitbook-start-team-noejaco2017)
 
+## Instalar nuestro paquete NPM
+npm install -g gitbook-start-team-noejaco2017 
+
 ### Comandos para crear nuestro modulo en NPM
 npm adduser (añade nuestro paquete)
 npm publish(publica nuestro paquete)
