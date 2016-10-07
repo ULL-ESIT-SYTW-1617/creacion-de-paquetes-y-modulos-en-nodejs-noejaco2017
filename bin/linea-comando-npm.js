@@ -14,30 +14,33 @@ var argv = require('minimist')(process.argv.slice(2));
 console.dir(argv);
 
 //EJS RENDERFILE cargamos la plantilla
-ejs.renderFile('./template/package.ejs',function(err, result) {
+ejs.renderFile('./template/package.ejs',{nombre :argv.name,direcciongit : argv.url,direccionwiki: argv.wiki},function(err, result) {
    // render on success
+   
    if (!err) {
-    
-            console.log(result);
+       // result.nombre=argv.name;
+       // result.direcciongit=argv.url;
+       // result.direccionwiki='argv.wiki';
+        console.log(result);
             //CREAMOS EL PACKAGE:JSON en template
                var write=fs.writeFile("./template/package.json",result, (err) => {
                        if (err) throw err;
-                       console.log('It\'s saved!');
+                       console.log('CREADO PACKAGE.JSON');
              });
    }
    // render or error
    else {
-            console.log('An error occurred: renderFile(package.ejs)');
+            console.log('Error renderFile(package.ejs)');
             console.log(err);
    }
 });
 
-console.log("argv_",argv._);
-console.log("argv_'",argv._[0]);
-console.log("argv_1",argv._[1]);
-console.log("argv",argv);
-console.log("argv1"+argv[1]);
-console.log("argv2"+argv[2]);
+console.log("argv_ ",argv._);//los que no tienen opcion asociada
+console.log("argv ",argv);
+console.log("argv1 "+argv.name);
+console.log("argv2 "+argv.url);
+console.log("argv3 "+argv.wiki);
+
 
 
 

@@ -31,7 +31,7 @@ Tener en cuenta que cada vez que se publique cambiar version package.json
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
 ### Ejecutar nuestro script parse
-node bin/linea-comando-npm.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
+node bin/linea-comando-npm.js --name juanito --url juanito@ull.edu.es --wiki wiki@ull.es
 
 # Installation
 Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
