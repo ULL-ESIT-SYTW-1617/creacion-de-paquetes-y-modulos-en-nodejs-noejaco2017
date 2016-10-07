@@ -1,6 +1,6 @@
 {
-  "name": " juanito ",
-  "version": "1.0.1",
+  "name": "  ",
+  "version": " 1.0.1 ",
 "description": "Creacion de un paquete npm",
   "main": "./bin/linea-comando-npm.js",
   "scripts": {
@@ -27,9 +27,9 @@
     "starter"
   ],
   "author": {
-    "name": "alu0100622492",
-    "email": "alu0100622492@ull.edu.es",
-    "url": "http://dsi1516.github.io/Practica1/"
+    "name": "juanito",
+    "email": "github@github.es",
+    "url": "juanito@ull.edu.es"
   },
   "contributors": {
     "name": "alu0100836059",

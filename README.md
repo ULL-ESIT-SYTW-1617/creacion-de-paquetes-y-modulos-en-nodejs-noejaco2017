@@ -23,6 +23,10 @@
 ## Enlace a npm
 [npm](https://www.npmjs.com/package/gitbook-start-team-noejaco2017)
 
+
+
+# Installation
+
 ## Instalar nuestro paquete NPM
 npm install -g gitbook-start-team-noejaco2017 
 
@@ -37,12 +41,12 @@ Tener en cuenta que cada vez que se publique cambiar version package.json
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
 ### Ejecutar nuestro script linea-comando-npm
-node bin/linea-comando-npm.js --name juanito --url juanito@ull.edu.es --wiki wiki@ull.es
+node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1
 * Opcion --name: Da un nombre al proyecto
 * Opcion --url: Direccion de git
 * Opcion --wiki: Direccion wiki para despliegue gitbook 
 
-# Installation
+
 Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
 1. Para el instalar los paquetes del pacakge.json utilizamos el comando npm install
 2. Para el de book.json utilizamos el comando gitbook install
