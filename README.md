@@ -41,7 +41,7 @@ Tener en cuenta que cada vez que se publique cambiar version package.json
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
 ### Ejecutar nuestro script linea-comando-npm
-node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1
+node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu
 * Opcion --name: Da un nombre al proyecto
 * Opcion --url: Direccion de git
 * Opcion --wiki: Direccion wiki para despliegue gitbook 

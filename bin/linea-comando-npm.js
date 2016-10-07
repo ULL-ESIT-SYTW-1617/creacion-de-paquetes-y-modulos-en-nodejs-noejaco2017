@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var path = require('path');
-var fs= require('fs');
+var fs= require('fs-extra');
 var ejs=require('ejs');
 
 //DIRECTORIO CON TEMPLATES
@@ -28,9 +28,13 @@ if(argv.h || argv.help){
     "--version: version repositorio github contra el que se va a trabajar -r github.com/repo.git\n"+
     "--url: repositorio github contra el que se va a trabajar -r github.com/repo.git\n"+
     "--wiki: direccion web de la wiki en github -w github.com/repo.wiki.git\n"+
+    "--directorio: nombre del directorio a crear\n"+
     "--help: muestra ayuda sobre las opciones disponibles\n");
 }else{
 //EJS RENDERFILE cargamos la plantilla
+var direct = process.cwd() + '/template/';
+    fs.mkdirsSync(direct + argv.directorio);
+    
     ejs.renderFile('./template/package.ejs',{nombre:argv.name, num:argv.version, direcciongit:argv.url, direccionwiki:argv.wiki, autor:argv.autor, email:argv.email},function(err, result) {
    // render on success
    
