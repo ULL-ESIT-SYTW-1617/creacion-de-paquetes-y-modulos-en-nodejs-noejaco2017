@@ -1,10 +1,11 @@
 #
 # Práctica: Generar modulo NPM
 
-[logo]:http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 
-![alt text]http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 
+
+![alt text][logo]
+[logo]: http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 ### Requisitos
 
 * Se trata de añadir un ejecutable gitbook-start (Véase seccion binen package.json)
@@ -31,13 +32,13 @@
 # Installation
 
 ## Instalar nuestro paquete NPM
-npm install -g gitbook-start-team-noejaco2017 
+_npm install -g gitbook-start-team-noejaco2017_ 
 
 ## Ejecutar nuestro paquete
-gitbook-start --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu
+_gitbook-start --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu_
 
 ## Manual de ayuda
-gitbook-start --h || --help
+_gitbook-start --h || --help_
 ````````````````````
 gitbook-start [OPTIONS]
 --autor: autor del libro a crear node gitbook-star -a AutorDelLibro
@@ -60,5 +61,5 @@ gitbook-start [OPTIONS]
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
 ### Ejecutar nuestro script linea-comando-npm
-node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu
+_node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu_
 
