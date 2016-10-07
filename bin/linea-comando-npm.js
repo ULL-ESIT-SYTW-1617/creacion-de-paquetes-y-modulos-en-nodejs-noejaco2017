@@ -21,7 +21,7 @@ ejs.renderFile('./template/package.ejs',{nombre:argv.name, direcciongit:argv.url
        // result.direcciongit=argv.url;
        // result.direccionwiki='argv.wiki';
         console.log(result);
-            //CREAMOS EL PACKAGE:JSON en template
+            //CREAMOS EL PACKAGE.JSON del template
                var write=fs.writeFile("./template/package.json",result, (err) => {
                        if (err) throw err;
                        console.log('CREADO PACKAGE.JSON');
