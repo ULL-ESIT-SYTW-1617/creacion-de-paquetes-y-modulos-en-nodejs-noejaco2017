@@ -1,18 +1,20 @@
 #
 # Práctica: Generar modulo NPM
 
+[logo]:https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQz0VMauYRpMF3HWZXuypC6QFR_xdmIkEyJkhH5oZzzCUWl35_tsWhWEYA
+
+
 ### Requisitos
 
-* Deberá de desplegar su libro en gh-pages
-* Deberá de desplegar su libro en GitBook
-* Añada un Gulpfile con tareas que automaticen la construcción y despliegue del libro en los diferentes sites
-* Usen los issues de GitHub para indicar las incidencias, problemas y progresos del proyecto
-* Genere un paquete NPM
+* Se trata de añadir un ejecutable gitbook-start (Véase seccion binen package.json)
+* Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en
+        1. GitHub gh-pages y en
+        2. https://www.gitbook.com/
+* Para analizar los argumentos pasados en línea de comandos un buen módulo es minimist
+* Como deberán darse de alta en el site de npm asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo gitbook-start-team-name
+* Añada a los otros miembros del equipo como contributors. Véase las seccion people fields de package.json
+* Intente que su paquete funcione independientemente del Sistema Operativo (Linux, MacOS X, Windows, etc.)
 
-### Autores
-
-* [Jacobo Rodicio Gonzalez](http://alu0100836059.github.io/pagina_personal/)
-* [Noé Campos Delgado](dsi1516.github.io/Practica1)
 
 ## Enlace a github gh-pages
 [gh-pages](https://ull-esit-sytw-1617.github.io/tareas-iniciales-noejaco2017/)
@@ -30,10 +32,26 @@
 ## Instalar nuestro paquete NPM
 npm install -g gitbook-start-team-noejaco2017 
 
+## Ejecutar nuestro paquete
+gitbook-start --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu
+
+## Manual de ayuda
+gitbook-start --h || --help
+´´´´´´´´´´´´´´´´
+gitbook-start [OPTIONS]
+--autor: autor del libro a crear node gitbook-star -a AutorDelLibro
+--email: email de contacto del usuario
+--version: version repositorio github contra el que se va a trabajar -r github.com/repo.git
+--url: repositorio github contra el que se va a trabajar -r github.com/repo.git
+--wiki: direccion web de la wiki en github -w github.com/repo.wiki.git
+--directorio: nombre del directorio a crear
+--help: muestra ayuda sobre las opciones disponibles
+´´´´´´´´´´´´´´´´´´´´´´
 ### Comandos para crear nuestro modulo en NPM
-npm adduser (añade nuestro paquete)
-npm publish(publica nuestro paquete)
-Tener en cuenta que cada vez que se publique cambiar version package.json
+
+* npm adduser (añade nuestro paquete)
+* npm publish(publica nuestro paquete)
+* Tener en cuenta que cada vez que se publique cambiar version package.json
 
 ### Carpeta bin y template
 * En nuestra carpeta /bin contiene los archivos para las funciones que podremos ejecutar desde la linea de comandos del cliente npm
@@ -42,20 +60,4 @@ Tener en cuenta que cada vez que se publique cambiar version package.json
 
 ### Ejecutar nuestro script linea-comando-npm
 node bin/linea-comando-npm.js --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --email github@github.es --version 1.0.1 --directorio chuchu
-* Opcion --name: Da un nombre al proyecto
-* Opcion --url: Direccion de git
-* Opcion --wiki: Direccion wiki para despliegue gitbook 
 
-
-Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
-1. Para el instalar los paquetes del pacakge.json utilizamos el comando npm install
-2. Para el de book.json utilizamos el comando gitbook install
-3. Una vez hecho y realizado cambios en nuestra repo txt y para cualquier cambio haremos
-4. gulp empujar donde pusheamos a master nuestra carpeta txt
-5. gulp deploy para publicar en gh-pages
-Opcional: gulp pdf donde generamos nuestro gitbook a pdf.
-
-
-
-___Utilización del plugin de toc3 para generar tablas de contenidos___:
-[TOC3](https://plugins.gitbook.com/plugin/toc3)

@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-start-team-noejaco2017",
-  "version": "1.0.9",
-  "description": "Creacion de un paquete npm",
+  "name": "  ",
+  "version": " 1.0.1 ",
+"description": "Creacion de un paquete npm",
   "main": "./bin/linea-comando-npm.js",
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
@@ -14,12 +14,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "gitbook-start": "./bin/linea-comando-npm.js"
+    "linea-comando-npm": "./bin/linea-comando-npm.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017.git",
-    "wiki": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017.wiki.git"
+    "url": "juanito@ull.edu.es",
+    "wiki": "wiki@ull.es"
   },
   "keywords": [
     "gitbook",
@@ -27,9 +27,9 @@
     "starter"
   ],
   "author": {
-    "name": "alu0100622492",
-    "email": "alu0100622492@ull.edu.es",
-    "url": "http://dsi1516.github.io/Practica1/"
+    "name": "juanito",
+    "email": "github@github.es",
+    "url": "juanito@ull.edu.es"
   },
   "contributors": {
     "name": "alu0100836059",
@@ -43,33 +43,16 @@
   "homepage": "creacion-de-paquetes-y-modulos-en-nodejs-noejaco2017/README.md",
   "devDependencies": {
     "async": "^1.4.0",
-    "express": "^4.14.0",
-    "fs": "0.0.1-security",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
     "gitbook": "^2.1.0",
     "gitbook-cli": "^0.3.4",
-    "graceful-fs": "^4.1.9",
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",
-    "minimist": "^1.2.0",
-    "path": "^0.12.7"
+    "minimist": "^1.2.0"
   },
   "dependencies": {
     "ejs": "^2.5.2",
-    "underscore": "^1.8.3",
-    "async": "^1.4.0",
-    "express": "^4.14.0",
-    "fs": "0.0.1-security",
-    "fs-extra": "^0.22.1",
-    "gh-pages": "^0.3.1",
-    "gitbook": "^2.1.0",
-    "gitbook-cli": "^0.3.4",
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-shell": "^0.5.2",
-    "minimist": "^1.2.0",
-    "path": "^0.12.7"
+    "underscore": "^1.8.3"
   }
 }
