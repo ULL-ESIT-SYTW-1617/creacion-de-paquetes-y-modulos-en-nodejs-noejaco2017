@@ -3,11 +3,12 @@
 
 [logo]:http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 
+![alt text]http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 
 ### Requisitos
 
 * Se trata de añadir un ejecutable gitbook-start (Véase seccion binen package.json)
-* Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en
+* Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en *.
         1. GitHub gh-pages y en
         2. https://www.gitbook.com/
 * Para analizar los argumentos pasados en línea de comandos un buen módulo es minimist
