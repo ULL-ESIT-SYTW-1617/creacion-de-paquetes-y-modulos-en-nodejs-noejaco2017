@@ -1,7 +1,7 @@
 #
 # Práctica: Generar modulo NPM
 
-[logo]:https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQz0VMauYRpMF3HWZXuypC6QFR_xdmIkEyJkhH5oZzzCUWl35_tsWhWEYA
+[logo]:http://frontendlabs.io/wp-content/uploads/2015/02/npm-logo.png
 
 
 ### Requisitos
@@ -37,7 +37,7 @@ gitbook-start --autor juanito --url juanito@ull.edu.es --wiki wiki@ull.es --emai
 
 ## Manual de ayuda
 gitbook-start --h || --help
-´´´´´´´´´´´´´´´´
+````````````````````
 gitbook-start [OPTIONS]
 --autor: autor del libro a crear node gitbook-star -a AutorDelLibro
 --email: email de contacto del usuario
@@ -46,7 +46,7 @@ gitbook-start [OPTIONS]
 --wiki: direccion web de la wiki en github -w github.com/repo.wiki.git
 --directorio: nombre del directorio a crear
 --help: muestra ayuda sobre las opciones disponibles
-´´´´´´´´´´´´´´´´´´´´´´
+``````````````````````
 ### Comandos para crear nuestro modulo en NPM
 
 * npm adduser (añade nuestro paquete)
