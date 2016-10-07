@@ -1,6 +1,6 @@
 {
   "name": "gitbook-start-team-noejaco2017",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creacion de un paquete npm",
   "main": "./bin/linea-comando-npm.js",
   "scripts": {

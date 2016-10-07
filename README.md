@@ -7,7 +7,7 @@
 * Deberá de desplegar su libro en GitBook
 * Añada un Gulpfile con tareas que automaticen la construcción y despliegue del libro en los diferentes sites
 * Usen los issues de GitHub para indicar las incidencias, problemas y progresos del proyecto
-* Use algun GitBook Plugin en sus apuntes
+* Genere un paquete NPM
 
 ### Autores
 
