@@ -6,7 +6,6 @@ var ejs=require('ejs');
 
 //DIRECTORIO CON TEMPLATES
 app.set('views', path.join(__dirname, 'template'));
-//app.set('views', path.join(__dirname, '../assets/*'));
 app.set('view engine', 'ejs');
 
 //MINIMIST
@@ -14,7 +13,7 @@ var argv = require('minimist')(process.argv.slice(2));
 console.dir(argv);
 
 //EJS RENDERFILE cargamos la plantilla
-ejs.renderFile('./template/package.ejs',{nombre :argv.name,direcciongit : argv.url,direccionwiki: argv.wiki},function(err, result) {
+ejs.renderFile('./template/package.ejs',{nombre:argv.name, direcciongit:argv.url, direccionwiki:argv.wiki},function(err, result) {
    // render on success
    
    if (!err) {

@@ -30,8 +30,11 @@ Tener en cuenta que cada vez que se publique cambiar version package.json
 * En nuestra carpeta /lib carpeta que da vida a nuestro modulo (parseo-minimist)
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
-### Ejecutar nuestro script parse
+### Ejecutar nuestro script linea-comando-npm
 node bin/linea-comando-npm.js --name juanito --url juanito@ull.edu.es --wiki wiki@ull.es
+* Opcion --name: Da un nombre al proyecto
+* Opcion --url: Direccion de git
+* Opcion --wiki: Direccion wiki para despliegue gitbook 
 
 # Installation
 Una vez clonamos nuestro proyecto realizamos los siguientes pasos:
