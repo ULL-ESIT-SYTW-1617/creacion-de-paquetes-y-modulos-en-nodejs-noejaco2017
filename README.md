@@ -20,14 +20,17 @@
 ## Enlace a gitbook
 [gitbook](https://alu0100836059.gitbooks.io/apuntessytw/content/)
 
+## Enlace a npm
+[npm](https://www.npmjs.com/package/gitbook-start-team-noejaco2017)
+
 ### Comandos para crear nuestro modulo en NPM
 npm adduser (añade nuestro paquete)
 npm publish(publica nuestro paquete)
 Tener en cuenta que cada vez que se publique cambiar version package.json
 
-### Carpeta bin y lib
+### Carpeta bin y template
 * En nuestra carpeta /bin contiene los archivos para las funciones que podremos ejecutar desde la linea de comandos del cliente npm
-* En nuestra carpeta /lib carpeta que da vida a nuestro modulo (parseo-minimist)
+* En nuestra carpeta /template tendremos el directorio a crear en gh-pages
 *  index.js que sirve de atajo al script principal de nuestra aplicación
 
 ### Ejecutar nuestro script linea-comando-npm
